@@ -1,0 +1,62 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.gallery{
+    margin: 0 auto;
+    text-align: center;
+}
+.gallery_item{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    list-style-type: none;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.gallery img:hover{
+    transform: scale(1.04);
+    transition: 0.1s;
+}
+
+button {
+    margin-top: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input, textarea {
+    width: 310px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+}
+
+form{
+    margin: 25px;
+}
